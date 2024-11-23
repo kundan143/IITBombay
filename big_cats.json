@@ -1,0 +1,15 @@
+[
+    {
+      "name": "Lion",
+      "location": "Africa",
+      "size": "Large",
+      "image": "lion.jpg"
+    },
+    {
+      "name": "Tiger",
+      "location": "Asia",
+      "size": "Large",
+      "image": "tiger.jpg"
+    }
+  ]
+  

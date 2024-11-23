@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Animal Tables</title>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .animal-image {
+      border: 2px solid #ccc;
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+    }
+    .animal-image:hover {
+      width: 200px;
+      height: 200px;
+    }
+    .bold-text {
+      font-weight: bold;
+    }
+    .blue-text {
+      color: blue;
+    }
+    .italic-text {
+      font-style: italic;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1 class="my-4">Animal Tables</h1>
+
+    <div id="big-cats-table">
+      <h3>Big Cats</h3>
+      <table class="table table-bordered">
+        <thead>
+          <tr>
+            <th>Image</th>
+            <th class="sortable" data-sort="name">Name</th>
+            <th class="sortable" data-sort="location">Location</th>
+            <th class="sortable" data-sort="size">Size</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody id="big-cats-body">
+        </tbody>
+      </table>
+      <button class="btn btn-primary" id="add-big-cat">Add Big Cat</button>
+    </div>
+
+    <div id="dogs-table">
+      <h3>Dogs</h3>
+      <table class="table table-bordered">
+        <thead>
+          <tr>
+            <th>Image</th>
+            <th class="sortable" data-sort="name">Name</th>
+            <th class="sortable" data-sort="location">Location</th>
+            <th class="sortable" data-sort="size">Size</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody id="dogs-body">
+        </tbody>
+      </table>
+      <button class="btn btn-primary" id="add-dog">Add Dog</button>
+    </div>
+
+    <div id="big-fish-table">
+      <h3>Big Fish</h3>
+      <table class="table table-bordered">
+        <thead>
+          <tr>
+            <th>Image</th>
+            <th class="sortable" data-sort="name">Name</th>
+            <th class="sortable" data-sort="size">Size</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody id="big-fish-body">
+        </tbody>
+      </table>
+      <button class="btn btn-primary" id="add-big-fish">Add Big Fish</button>
+    </div>
+
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="app.js"></script> 
+</body>
+</html>

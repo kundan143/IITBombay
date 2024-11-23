@@ -1,0 +1,15 @@
+[
+    {
+      "name": "Shark",
+      "location": "Oceans",
+      "size": "Large",
+      "image": "shark.jpg"
+    },
+    {
+      "name": "Whale Shark",
+      "location": "Oceans",
+      "size": "Very Large",
+      "image": "whale_shark.jpg"
+    }
+  ]
+  

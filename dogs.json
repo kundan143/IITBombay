@@ -1,0 +1,15 @@
+[
+    {
+      "name": "Golden Retriever",
+      "location": "USA",
+      "size": "Medium",
+      "image": "golden_retriever.jpg"
+    },
+    {
+      "name": "Bulldog",
+      "location": "UK",
+      "size": "Small",
+      "image": "bulldog.jpg"
+    }
+  ]
+  
